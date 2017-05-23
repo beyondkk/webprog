@@ -1,211 +1,363 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width">
-       
-        <link rel="stylesheet" href="css/bootstrap.css">
-        <link rel="stylesheet" href="css/bootstrap-responsive.css">
-        
-        <link rel="stylesheet" href="css/custom-styles.css">
-        
-		<link rel="stylesheet" href="css/font-awesome.css">
-        <link rel="stylesheet" href="css/font-awesome-ie7.css">
-		
-        <script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
-    </head>
-    <body>
-        <!--[if lt IE 7]>
-            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
-        <![endif]-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,400italic'>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/ekko-lightbox.min.css">
+<!--    <link rel="stylesheet" type="text/css" href="css/ekko-lightbox-dark.css"> -->
+    <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+<!--
+Sigma Template
+http://www.templatemo.com/tm-479-sigma
+-->
+    <title>Sigma - Free Bootstrap 4.0 Template</title>
+</head>
 
-        <!-- This code is taken from http://twitter.github.com/bootstrap/examples/hero.html -->
-            <div class="container">
+<body>
 
-                <div class="row-fluid">
+<header id="top">
+
+	<div class="container-fluid">
+    
+        <div class="row">
+        
+            <div class="col-lg-4 col-md-12 site-title">
+                <h1>Sigma</h1>
+                <h2>Image Gallery built on Bootstrap 4.0</h2>
                 
-                    <div class="span8 offset2">
-                        <div class="site-header">
-                            <div class="logo">
-                                <h1>your name</h1>
-                            </div>
-                            <div class="menu">
-                                <div class="navbar">
-                                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-                                        <i class="fw-icon-th-list"></i>
-                                    </a>
-                                    <div class="nav-collapse collapse">
-                                        <ul class="nav">
-                                            <li class="active"><a href="#">Home</a></li>
-                                            <li><a href="#">About</a></li>
-                                            <li><a href="#">Services</a></li>
-                                            <li><a href="#">Portfolio</a></li>
-                                            <li class="no-border-right"><a href="#">Contact</a></li>
-                                        </ul>
-                                    </div><!--/.nav-collapse -->
-                                </div>
-                                <div class="mini-menu">
-            <label>
-          <select class="selectnav">
-            <option value="#" selected="">Home</option>
-            <option value="#">About</option>
-            <option value="#">→ Another action</option>
-            <option value="#">→ Something else here</option>
-            <option value="#">→ Another action</option>
-            <option value="#">→ Something else here</option>
-            <option value="#">Services</option>
-            <option value="#">Work</option>
-            <option value="#">Contact</option>
-          </select>
-          </label>
-          </div>
-                            </div>
-                        </div>
-                        <div class="banner-shadow">
-                        <div class="banner">
-                            <div class="carousel slide" id="myCarousel">
-                                        <!-- Carousel items -->
-                                <div class="carousel-inner">
-                                    <div class="item active">
-                                        <img src="img/banner-image.jpg" alt="">
-                                        <div class="carousel-caption">
-                                          <div class="social-icons">
-                                            <ul>
-                                                <li><a href="#"><i class="fw-icon-facebook icon"></i></a></li>
-                                                <li><a href="#"><i class="fw-icon-twitter icon"></i></a></li>
-                                                <li><a href="#"><i class="fw-icon-linkedin icon"></i></a></li>
-                                            </ul>
-                                        </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        </div>
-                        <div class="featured-heading">
-                            <div class="row-fluid">
-                                <div class="span10 offset1">
-                                    <h1>Hello Iam kate Doe</h1>
-                                    <h2>Donec nec justo <strong>eget felis</strong> facilisis fermentumpelle <span>ntesque</span> felis lorem ipsum dolor</h2>
-                                    <a href="#" class="btn">more about me</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="featured-content">
-                            <div class="row-fluid">
-                                <div class="span6">
-                                    <div class="block">
-                                        <h1>Nunc dignissim risus </h1>
-                                        <p>Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu <span>vulputate magna eros eu erat</span>. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.</p>
-                                        <a href="#" class="btn">more info</a>
-                                    </div>
-                                </div>
-                                <div class="span6">
-                                    <div class="block">
-                                        <h1>Vivamus vestibulum nulla </h1>
-                                        <p class="last">Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.</p>
-                                        <ul class="ruler-top">
-                                            <li><a href="#">Integer vita /</a></li>
-                                            <li><a href="#">Egestis /</a></li>
-                                            <li><a href="#">Tindidunt</a></li>
-                                        </ul>
-                                        <a href="#" class="btn">more info</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="portfolio-block">
-                            <div class="portfolio-title">
-                            <h1>portfolio</h1>
-                            <h2>Integer vitae libero ac risus egestas placerat</h2>
-                            </div>
-                            <div class="links">
-                                <a href="#">Tomdicmt</a>
-                                <a href="#">Voluptin</a>
-                                <a href="#">fermentu</a>
-                            </div>
-                            <div class="row-fluid">
-                                <ul class="thumbnails">
-                                  <li class="no-space">
-                                    <a href="#" class="circle"><img src="img/img1.png" alt=""></a>
-                                  </li>
-                                  <li>
-                                    <a href="#" class="circle"><img src="img/img2.png" alt=""></a>
-                                  </li>
-                                  <li>
-                                    <a href="#" class="circle"><img src="img/img3.png" alt=""></a>
-                                  </li>
-                                  <li>
-                                    <a href="#" class="circle"><img src="img/img4.png" alt=""></a>
-                                  </li>
-                                  <li>
-                                    <a href="#" class="circle"><img src="img/img5.png" alt=""></a>
-                                  </li>
-                                  <li>
-                                    <a href="#" class="circle"><img src="img/img6.png" alt=""></a>
-                                  </li>
-                                  <li>
-                                    <a href="#" class="circle"><img src="img/img7.png" alt=""></a>
-                                  </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="contact-info">
-                            <h1>contact me</h1>
-                            <h2>lorem ger vitae libero ac risus</h2>
-                           
-                              <form>
-                                  <div class="controls">
-                                      <input id="name" name="name" type="text" class="span5" placeholder="Name here.."> 
-                                      <input id="email" name="email" type="email" class="span5" placeholder="Email here..">
-                                  </div>
-                                  <div class="controls">
-                                      <textarea id="message" name="message" class="span10" placeholder="Message here.." rows="5"></textarea>
-                                  </div>
-                                  
-                                  <div class="controls">
-                                      <button id="contact-submit" type="submit" class="btn">Submit</button>
-                                  </div>
-                              </form>
-                            
-                        </div>
-                        <div class="site-footer">
-                            <div class="row-fluid">
-                                <div class="span6 align-right">
-                                    <h1>Designed By</h1>
-                                    <ul>
-                                        <li><a href="http://www.alltemplateneeds.com">www.alltemplateneeds.com</a></li>
-                                        <li><a href="http://www.alldesignneeds.com">www.alldesignneeds.com</a></li>
-                                    </ul>
-                                </div>
-                                <div class="span6">
-                                    <h1>Images From</h1>
-                                    <ul>
-                                        <li><a href="http://www.wallpaperswide.com">www.wallpaperswide.com </a></li>
-                                        <li><a href="http://www.wallcoo.net">www.wallcoo.net</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
+            
+            <div class="col-lg-8 col-md-12 main-menu">
+                
+                <nav class="navbar navbar-light">
+                  <ul class="nav navbar-nav single-page-nav">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#home">Home <!-- <span class="sr-only">(current)</span> --></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#gallery">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link external" href="http://www.google.com" target="_parent">External</a>
+                    </li>
+                  </ul>
+                </nav>
+              
+            </div>
+            
+        </div>
+        
+        <div class="row">
+            <div class="col-md-12">
+            	<hr class="sigma-hr">
+            </div>
+        </div>
+
+    </div>
+    
+</header>
+
+<section id="home">
+
+	<div class="container-fluid">
+
+        <div class="row sigma-home single-page-nav">
+        
+        	<div class="col-md-offset-2 col-lg-offset-3 col-lg-6 col-md-8 col-sm-12 text-center">
+            	<h1>Bootstrap 4.0 Theme</h1>
+            	<p>Sigma is free Bootstrap 4 (alpha 2) theme designed for a metro-style image grid gallery. 
+                Download, modify and use this layout for your websites.</p>
+                <a href="#gallery" class="btn btn-danger sigma-start">Our Gallery</a>
+                <a href="#about" class="btn btn-success sigma-start">Learn More</a>
+            </div>
+            
+        </div>
+        
+        <div class="row">
+        	<div class="sigma-content col-lg-3 col-md-6 sigma-bg-lightgray text-center">
+            	<span class="sigma-icon fa fa-power-off"></span>
+                <h2>Design</h2>
+            	<p>Praesent lorem dui, suscipit eu volutpat id, sollicitudin ut mi. Praesent ornare massa vehicula.</p>
+            </div>
+            <div class="sigma-content col-lg-3 col-md-6 sigma-bg-gray text-center">
+            	<span class="sigma-icon fa fa-bolt"></span>
+            	<h2>Implement</h2>
+            	<p>Praesent lorem dui, suscipit eu volutpat id, sollicitudin ut mi. Praesent ornare massa vehicula.</p>
+            </div>
+            <div class="sigma-content col-lg-3 col-md-6 sigma-bg-darkgray text-center">
+            	<span class="sigma-icon fa fa-thumbs-up"></span>
+            	<h2>Enhance</h2>
+            	<p>Praesent lorem dui, suscipit eu volutpat id, sollicitudin ut mi. Praesent ornare massa vehicula.</p>
+            </div>
+            <div class="sigma-content col-lg-3 col-md-6 sigma-bg-black text-center">
+            	<span class="sigma-icon fa fa-bar-chart"></span>
+            	<h2>Monitor</h2>
+            	<p>Praesent lorem dui, suscipit eu volutpat id, sollicitudin ut mi. Praesent ornare massa vehicula.</p>
+            </div>
+        </div>
+        
+	</div>
+    
+</section>
+
+<section id="gallery">
+
+	<div class="container-fluid">
+
+        <div class="row">
+        
+			<a href="images/tm-sigma-01.jpg" data-toggle="lightbox" data-gallery="sigma-gallery" data-title="Image Title 01">
+            <img src="images/tm-sigma-01.jpg" alt="Image 1" class="img-fluid sigmapad col-lg-4 col-md-6 col-sm-6"></a>
+
+			<a href="images/tm-sigma-02.jpg" data-toggle="lightbox" data-gallery="sigma-gallery" data-title="Image Title 02"
+            	data-footer="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non nunc dictum.">
+            <img src="images/tm-sigma-02.jpg" alt="Image 2" class="img-fluid sigmapad col-lg-4 col-md-6 col-sm-6"></a>
+
+			<a href="images/tm-sigma-02.jpg" data-toggle="lightbox" data-gallery="sigma-gallery" data-title="Image Title 03">
+			<img src="images/tm-sigma-03.jpg" alt="Image 3" class="img-fluid sigmapad col-lg-4 col-md-8 col-sm-12"></a>
+
+			<a href="images/tm-sigma-04.jpg" data-toggle="lightbox" data-gallery="sigma-gallery" data-title="Image Title 04"
+            	data-footer="Aenean et tortor nec odio tempor volutpat nec in dui. Etiam libero turpis, accumsan nec.">
+			<img src="images/tm-sigma-04.jpg" alt="Image 4" class="img-fluid sigmapad col-lg-8 col-md-4 col-sm-6"></a>
+
+			<a href="images/tm-sigma-05.jpg" data-toggle="lightbox" data-gallery="sigma-gallery" data-title="Image Title 05">
+			<img src="images/tm-sigma-05.jpg" alt="Image 5" class="img-fluid sigmapad col-lg-4 col-md-4 col-sm-6"></a>
+			
+            <a href="images/tm-sigma-06.jpg" data-toggle="lightbox" data-gallery="sigma-gallery" data-title="Image Title 06">
+            <img src="images/tm-sigma-06.jpg" alt="Image 6" class="img-fluid sigmapad col-lg-4" title="Bicycle"></a>
+            
+
+			<a href="images/tm-sigma-07.jpg" data-toggle="lightbox" data-gallery="sigma-gallery" data-title="Image Title 07">
+			<img src="images/tm-sigma-07.jpg" alt="Image 7" class="img-fluid sigmapad col-sm-6" title="Walking"></a>
+
+			<a href="images/tm-sigma-08.jpg" data-toggle="lightbox" data-gallery="sigma-gallery" data-title="Image Title 08">
+			<img src="images/tm-sigma-08.jpg" alt="Image 8" class="img-fluid sigmapad col-sm-6" title="Camera"></a>
+            
+            <a href="images/tm-sigma-01.jpg" data-toggle="lightbox" data-gallery="sigma-gallery" data-title="Image Title 09">
+			<img src="images/tm-sigma-01.jpg" alt="Image 9" class="img-fluid sigmapad col-lg-3 col-md-8 col-sm-12"></a>
 
 
+			<a href="images/tm-sigma-02.jpg" data-toggle="lightbox" data-gallery="sigma-gallery" data-title="Image Title 10">
+			<img src="images/tm-sigma-02.jpg" alt="Image 10" class="img-fluid sigmapad col-lg-3 col-md-4 col-sm-6"></a>
 
-       <script src="js/jquery-1.9.1.js"></script> 
-<script src="js/bootstrap.js"></script>
-<script>
-$('#myCarousel').carousel({
-    interval: 1800
-});
-</script>
+			<a href="images/tm-sigma-03.jpg" data-toggle="lightbox" data-gallery="sigma-gallery" data-title="Image Title 11">
+			<img src="images/tm-sigma-03.jpg" alt="Image 11" class="img-fluid sigmapad col-lg-3 col-md-4 col-sm-6"></a>
 
-    </body>
+			<a href="images/tm-sigma-04.jpg" data-toggle="lightbox" data-gallery="sigma-gallery" data-title="Image Title 12">
+			<img src="images/tm-sigma-04.jpg" alt="Image 12" class="img-fluid sigmapad col-lg-3 col-sm-12"></a>
+
+        </div>
+        
+    </div>
+
+</section>
+
+<section id="about">
+
+	<div class="container-fluid">
+    
+    	<div class="row sigma-section-header">
+        	<div class="col-md-offset-2 col-lg-offset-3 col-lg-6 col-md-8 col-sm-12 text-center">
+        		<h1>About Us</h1>
+                <p>Sed elit elit, dictum eu turpis non, fringilla efficitur ipsum. Phasellus ultrices, nunc et tempus porta, tellus purus elementum ex, volutpat lobortis orci dolor in tortor.</p>
+            </div>
+        </div>
+
+        <div class="row single-page-nav">
+        
+        	<div class="sigma-content col-lg-4 col-md-6 sigma-bg-lightgray">
+            	<h2>01 Design</h2>
+            	<p>Praesent lorem dui, suscipit eu volutpat id, sollicitudin ut mi. Praesent ornare massa vehicula.</p>
+            </div>
+            <div class="sigma-content col-lg-4 col-md-6 sigma-bg-gray">
+            	<h2>02 Coding</h2>
+            	<p>Praesent lorem dui, suscipit eu volutpat id, sollicitudin ut mi. Praesent ornare massa vehicula.</p>
+            </div>
+            <div class="sigma-content col-lg-4 col-md-12 sigma-bg-darkgray">
+            	<h2>03 Mobile Ready</h2>
+            	<p>Praesent lorem dui, suscipit eu volutpat id, sollicitudin ut mi. Praesent ornare massa vehicula.</p>
+            </div>
+        
+        	<div class="sigma-content col-lg-6 col-md-6 sigma-bg-pink">
+            	<h2>Left Column</h2>
+            	<p>Praesent lorem dui, suscipit eu volutpat id, sollicitudin ut mi. Praesent ornare massa vehicula.</p>
+                <a href="#about" class="btn btn-primary btn-lg">Read Detail</a>
+            </div>
+            <div class="sigma-content col-lg-6 col-md-6 sigma-bg-lightblue">
+            	<h2>Right Column</h2>
+            	<p>Praesent lorem dui, suscipit eu volutpat id, sollicitudin ut mi. Praesent ornare massa vehicula.</p>
+                <a href="#contact" class="btn btn-danger btn-lg">Learn More</a>
+            </div>
+        
+        	<div class="sigma-content col-lg-3 col-md-6 sigma-bg-red">
+            	<h2>Our Team</h2>
+            	<p>Praesent lorem dui, suscipit eu volutpat id, sollicitudin ut mi. Praesent ornare massa vehicula.</p>
+            </div>
+            <div class="sigma-content col-lg-3 col-md-6 sigma-bg-blue">
+            	<h2>History</h2>
+            	<p>Praesent lorem dui, suscipit eu volutpat id, sollicitudin ut mi. Praesent ornare massa vehicula.</p>
+            </div>
+            <div class="sigma-content col-lg-3 col-md-6 sigma-bg-green">
+            	<h2>Management</h2>
+            	<p>Praesent lorem dui, suscipit eu volutpat id, sollicitudin ut mi. Praesent ornare massa vehicula.</p>
+            </div>
+            <div class="sigma-content col-lg-3 col-md-6 sigma-bg-yellow">
+            	<h2>Career</h2>
+            	<p>Praesent lorem dui, suscipit eu volutpat id, sollicitudin ut mi. Praesent ornare massa vehicula.</p>
+            </div> 
+            
+        </div>
+        
+	</div>
+    
+</section>
+            
+<section id="contact">
+
+	<div class="container-fluid">
+
+        <div class="row sigma-section-header">
+        	<div class="col-md-offset-2 col-lg-offset-3 col-lg-6 col-md-8 col-sm-12 text-center">
+        		<h1>Contact</h1>
+                <p>You may <a rel="nofollow" href="http://www.templatemo.com/contact" target="_parent">contact</a> templatemo if you have any question. Suspendisse dolor purus, malesuada ut luctus quis, consectetur vel ante. Integer a pulvinar orci.</p>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="sigmano col-lg-8 col-md-12">
+                
+                <form action="#contact" method="post" id="contact-form">
+                <div class="col-md-6">
+               		<fieldset class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Write a full name">
+                  	</fieldset>
+                  
+                  	<fieldset class="form-group">
+                    	<label for="email">Your Email</label>
+                    	<input type="email" class="form-control" id="email" placeholder="Enter your email">
+                    	
+                  	</fieldset>
+                    
+                    <fieldset class="form-group">
+                    	<label for="budget">Your Budget</label>
+                    	<select class="form-control" id="budget">
+                      		<option>$500</option>
+                      		<option>$1,000</option>
+                      		<option>$1,500</option>
+                      		<option>$2,000</option>
+                    	</select>
+                  	</fieldset>
+                </div> 
+                <div class="col-md-6">
+                 
+                 	<fieldset class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" class="form-control" id="subject" placeholder="Subject">
+                  	</fieldset>
+                    
+                  	<fieldset class="form-group">
+                    	<label for="message">Your Message</label>
+                    	<textarea class="form-control" id="message" rows="4" placeholder="Write a message"></textarea>
+                  	</fieldset>
+                  
+                  	<div class="checkbox">
+                    	<label>
+                      		<input type="checkbox"> I am not a robot.
+                    	</label>
+                  	</div>
+                  
+                  	<button type="submit" class="btn btn-success btn-lg">Submit</button>
+                </div>  
+            	</form>
+                
+            </div>
+            
+			<div class="sigma-content col-lg-4 col-md-12">
+        		<h3>Our Address</h3>
+                <p>Suspendisse dolor purus, malesuada ut luctus quis, consectetur vel ante. 
+                Integer a pulvinar orci, eget sagittis enim.</p>
+          		<p><span class="contact-icon fa fa-envelope-o"></span> Email: info@company.com</p>
+                <p><span class="contact-icon fa fa-phone"></span> Phone: 070-070-0880</p>
+            </div>
+        </div>
+        
+	</div>
+    
+</section>
+
+<footer>
+
+	<div class="container-fluid">
+    
+    	<div class="row">
+            <div class="col-md-12">
+            	<hr class="sigma-hr">
+            </div>
+        </div>
+
+        <div class="row">
+        	<div class="sigma-copyright col-lg-8">
+            	<p>Copyright © 2016 Sigma Bootstrap 4 Theme
+                    
+                    | design: <a rel="nofollow" href="http://www.templatemo.com" target="_parent">templatemo</a></p>
+            </div>
+            
+            <div class="sigma-copyright col-lg-4 single-page-nav text-right">
+            	<p><a href="#top">Go to top</a></p>
+            </div>
+        </div>
+        
+    </div>   
+
+</footer>
+
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+        <script src="js/ekko-lightbox.min.js"></script>
+        <script src="js/jquery.singlePageNav.min.js"></script>
+        <script>
+
+            // Prevent console.log from generating errors in IE for the purposes of the demo
+            if ( ! window.console ) console = { log: function(){} };
+
+            // The actual plugin
+            $('.single-page-nav').singlePageNav({
+                offset: $('.single-page-nav').outerHeight(),
+                filter: ':not(.external)',
+                updateHash: true,
+                beforeStart: function() {
+                    console.log('begin scrolling');
+                },
+                onComplete: function() {
+                    console.log('done scrolling');
+                }
+            });
+			
+			$(document).ready(function ($) {
+
+				// delegate calls to data-toggle="lightbox"
+				$(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
+					event.preventDefault();
+					return $(this).ekkoLightbox({
+						always_show_close: true
+					});
+				});
+
+			});
+			
+        </script>
+
+</body>
 </html>
