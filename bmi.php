@@ -107,25 +107,6 @@ http://www.templatemo.com/tm-479-sigma
 	</div>
 
 </section>
-<footer id="footer">
-  <div class="container">
-    <div class="row">
-      <div class="grid_12">
-
-        <div class="copyright"><span class="brand">Web Project</span> &copy; <span id="copyright-year"></span> | UBON RATCHATHANI UNIVERSITY
-          <div>Website designed by Kittipong sudcha
-          </div>
-          <div><p>THANK Sigma Bootstrap 4 Theme
-
-                | design: <a rel="nofollow" href="http://www.templatemo.com" target="_parent">templatemo</a></p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</footer>
-
-
 
 		<script src="js/jquery.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
