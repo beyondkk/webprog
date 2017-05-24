@@ -83,41 +83,20 @@
 <section class="content gallery pad1"><div class="ic"></div>
   <div class="container">
     <div class="row">
-      <div class="grid_3">
-        <div class="gall_block">
-          <div class="maxheight">
-            <a href="drink.php" class="gall_item"><img src="images/can.png" alt=""></a>
+      <div class="grid_12">
             <div class="gall_bot">
-            <div class="text1"><a href="#">เครื่องดื่ม</a></div>
-            <br>
-            </div>
-          </div>
+            <div class="text1"><a href="#">ผลไม้ / ขนม</a></div>
         </div>
       </div>
-      <div class="grid_3">
-        <div class="gall_block">
-          <div class="maxheight">
-            <a href="fruit.php" class="gall_item"><img src="images/cake.png" alt=""></a>
-            <div class="gall_bot">
-            <div class="text1"><a href="#">ขนม / ผลไม้</a></div>
-            <br>
-          </div>
-          </div>
-        </div>
-      </div>
-      <div class="grid_3">
-        <div class="gall_block">
-          <div class="maxheight">
-            <a href="food.php" class="gall_item"><img src="images/food.png" alt=""></a>
-            <div class="gall_bot">
-            <div class="text1"><a href="#">อาหาร</a></div>
-            <br>
-            </div>
-          </div>
-        </div>
-      </div>
-
   </div>
+      <?php
+        include 'test.php';
+        echo $ret[1];
+      ?>
+  </div>
+
+</div>
+</div>
 </section>
 <!--==============================
               footer
